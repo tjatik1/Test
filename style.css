@@ -1,0 +1,39 @@
+* {
+    margin: 0; /*метот отвечает за внешний отступ объекта.
+    мы его обнулили для всех*/
+    padding: 0; /*ьетод отвечает за внутренний отступ объекта .
+    Мы его обнулили для всех объектов*/
+}
+
+body {
+   background-color: #ffb03b;/*задаёт цвет фону*/
+}
+
+
+p {
+    border: 5px solid;/*Создаём рамку , задали толщину и сделали её сплошной */
+    border-radius: 20px;/*Закруглили углы у рамки*/
+    border-color:#0fee ;/*Цвет рамки*/
+
+    font-size: 25px;/*увеличивать размер текста*/
+    margin: 100px;/*Внешний отступ*/
+    padding: 50px;/*Внутренний отступ*/
+    background-color: #fad5aa;/*задаёт цвет заднему фону*/
+    color:#030bff;/*задаёт цвет туксту*/
+    text-align: center;/*задаёт ореинтацию текста*/
+}
+
+h1{
+    color:#cf0;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color:#fc035e;
+    background-color:#fad5aa;
+    text-align: center;
+    margin: 100px;
+    padding: 50px
+}
+
+p:hover{
+    scale: 1.1;
+}
